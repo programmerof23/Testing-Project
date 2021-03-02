@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
         scoreText.GetComponent<ScoreKeeper>().scoreValue += 5;
-        scoreText.GetComponent<ScoreKeeper>
+        //scoreText.GetComponent<ScoreKeeper>
         
     }
 }
